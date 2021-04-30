@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>DropDown Menu</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="item item--1">
+        <h4>PURE HTML-1 -- OPTGROUP</h4>
+        <select>
+          <optgroup label="languages">
+            <option value="HTML">HTML</option>
+            <option value="CSS">CSS</option>
+            <option value="JAVASCRIPT">JAVASCRIPT</option>
+          </optgroup>
+        </select>
+      </div>
+
+      <!-- -------------------------------- -->
+
+      <div class="item item--2">
+        <h4>PURE HTML-2 -- DATALIST</h4>
+        <input list="languages" name="language" placeholder="Select Language" />
+        <datalist id="languages">
+          <option value="HTML">HTML</option>
+          <option value="CSS">CSS</option>
+          <option value="JAVASCRIPT">JAVASCRIPT</option>
+        </datalist>
+      </div>
+
+      <!-- -------------------------------- -->
+
+      <div class="item item--3">
+        <h4>PURE CSS</h4>
+        <div class="dropdown">
+          <button class="dropbtn">Dropdown</button>
+          <div class="dropdown-content">
+            <a href="#">HTML</a>
+            <a href="#">CSS</a>
+            <a href="#">JAVASCRIPT</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- -------------------------------- -->
+
+      <div class="item item--4">
+        <h4>JAVASCRIPT</h4>
+        <div class="dropdownn">
+          <button class="dropbtnn">Dropdown</button>
+          <div id="myDropdown" class="dropdown-contentt">
+            <a href="#">HTML</a>
+            <a href="#">CSS</a>
+            <a href="#">JAVASCRIPT</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- -------------------------------- -->
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
